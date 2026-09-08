@@ -548,7 +548,7 @@ const styles = StyleSheet.create({
 
     </ScrollView>
   );
-}
+
 
 const styles = StyleSheet.create({
 
