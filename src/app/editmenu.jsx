@@ -340,11 +340,7 @@ const styles = StyleSheet.create({
 
 });
 
-const courses = [
-  'Starter',
-  'Main Course',
-  'Dessert',
-];
+
 
 export default function EditMenuScreen({
   navigation,
