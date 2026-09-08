@@ -40,7 +40,7 @@ const Courses = ({ navigation }) => [
         Alert.alert("Success", "Menu item added successfully!");
     
         navigation.navigate("Menu items");
-    }
+    };
          return (
         <ScrollView
             style={styles.container}
