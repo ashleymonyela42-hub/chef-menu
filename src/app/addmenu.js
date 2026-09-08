@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput, TouchableOpacity, ScrollView, Alert, StyleSheet } from "react-native";
+import { Alert, ScrollView, Text, TextInput, TouchableOpacity } from "react-native";
 const Courses = ({ navigation }) => [
     'Starter',
     'Main course',
@@ -40,7 +40,7 @@ const Courses = ({ navigation }) => [
         Alert.alert("Success", "Menu item added successfully!");
     
         navigation.navigate("Menu items");
-    };
+    }
          return (
         <ScrollView
             style={styles.container}
