@@ -340,10 +340,6 @@ const styles = StyleSheet.create({
 
 });
 
-
-
-
-
   const { itemId } = route.params;
 
   const item = menuItems.find(
