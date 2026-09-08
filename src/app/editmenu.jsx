@@ -342,12 +342,7 @@ const styles = StyleSheet.create({
 
 
 
-export default function EditMenuScreen({
-  navigation,
-  route,
-  menuItems,
-  setMenuItems,
-}) {
+
 
   const { itemId } = route.params;
 
